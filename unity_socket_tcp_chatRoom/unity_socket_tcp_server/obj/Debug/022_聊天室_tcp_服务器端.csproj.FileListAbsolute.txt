@@ -1,0 +1,7 @@
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\bin\Debug\022_聊天室_tcp_服务器端.exe.config
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\bin\Debug\022_聊天室_tcp_服务器端.exe
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\bin\Debug\022_聊天室_tcp_服务器端.pdb
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\obj\Debug\022_聊天室_tcp_服务器端.csprojResolveAssemblyReference.cache
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\obj\Debug\022_聊天室_tcp_服务器端.csproj.CoreCompileInputs.cache
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\obj\Debug\022_聊天室_tcp_服务器端.exe
+D:\vs workspace\ConsoleApp3\022_聊天室_tcp_服务器端\obj\Debug\022_聊天室_tcp_服务器端.pdb

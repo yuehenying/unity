@@ -1,0 +1,69 @@
+Initialize engine version: 5.6.4f1 (ac7086b8d112)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 820M (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     2000 MB
+    Driver:   22.21.13.8253
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\Unity\Project\unity_socket_tcp_client\chat-box_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.331999 ms
+SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Connect (System.Net.IPAddress address, Int32 port) [0x00000] in <filename unknown>:0 
+  at charManager.ConnectToServer () [0x00000] in <filename unknown>:0 
+  at charManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2c0c -> priority: 1 
+  Thread -> id: 1d90 -> priority: 1 
+SocketException: 由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+
+  at System.Net.Sockets.Socket.Send (System.Byte[] buf) [0x00000] in <filename unknown>:0 
+  at charManager.SendMessage (System.String msg) [0x00000] in <filename unknown>:0 
+  at charManager.OnSendButtonClick () [0x00000] in <filename unknown>:0 
+  at EventDelegate.Execute () [0x00000] in <filename unknown>:0 
+  at EventDelegate.Execute (System.Collections.Generic.List`1 list) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+EventDelegate:Execute(List`1)
+UIButton:OnClick()
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+UICamera:Notify(GameObject, String, Object)
+UICamera:ProcessRelease(Boolean, Single)
+UICamera:ProcessTouch(Boolean, Boolean)
+UICamera:ProcessMouse()
+UICamera:ProcessTouches()
+UICamera:ProcessEvents()
+UICamera:Update()
+ 
+(Filename:  Line: -1)
+
+SocketException: 由于套接字没有连接并且(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+
+  at System.Net.Sockets.Socket.Shutdown (SocketShutdown how) [0x00000] in <filename unknown>:0 
+  at charManager.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
